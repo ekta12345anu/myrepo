@@ -11,10 +11,9 @@
 	  	<property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
 	  	<property name="hibernate.connection.username">postgres</property>
 	  	<property name="hibernate.connection.password">clienta</property>
-	  	<property name="hibernate.show_sql">false</property>
+	  	<property name="hibernate.show_sql">true</property>
 	  	
 	  	 <mapping class= "org.mypackage.hibernate.UserDetails" /> 
-	  	
     </session-factory>
     
 </hibernate-configuration>

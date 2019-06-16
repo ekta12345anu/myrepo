@@ -19,7 +19,6 @@ public class UserDetailsExecution {
 		session.beginTransaction();
 		session.save(userDetails);
 		session.beginTransaction().commit();
-
 	}
 
 }
